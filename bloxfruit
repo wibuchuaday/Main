@@ -27,6 +27,15 @@ local Tab5 = Window:MakeTab({
 })
 
 Tab2:AddButton({
+	Name = "Astral",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+end
+})
+
+Tab2:AddButton({
 	Name = "Xero",
 	Callback = function()
         repeat wait(5) until game:IsLoaded()
