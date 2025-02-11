@@ -2,22 +2,26 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/wib
 
 local Window = OrionLib:MakeWindow({Name = "All-Script", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
 
-local Tab2 = Window:MakeTab({"Scripts Mới",
+local Tab2 = Window:MakeTab({
+        Name = "Scripts Mới",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
-local Tab3 = Window:MakeTab({"Script2",
+local Tab3 = Window:MakeTab({
+        Name = "Script2",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
-local Tab4 = Window:MakeTab({"Scripts Cần Key",
+local Tab4 = Window:MakeTab({
+        Name = "Scripts Cần Key",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
-local Tab5 = Window:MakeTab({"PetGo",
+local Tab5 = Window:MakeTab({
+        Name = "PetGo",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
