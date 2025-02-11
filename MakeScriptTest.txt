@@ -2,14 +2,6 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/wib
 
 local Window = OrionLib:MakeWindow({Name = "All-Script", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
 
-local Discord Window: MakeTab("Youtube", "video"))
-Discord: AddDiscordInvite ((
-           Name = "Script Make By TienDay",
-           Description = "Đăng kí đi"
-           Logo = "rbxassetid://136803893502229",
-           Invite = "https://youtu.be/ZgzTTP3WJBA?si=MyEXT7byTPVBvW6O"
-))
-
 local Tab2 = Window:MakeTab(("Scripts Mới"
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
