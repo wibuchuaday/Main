@@ -379,7 +379,7 @@ if game:GetService("ReplicatedStorage").Effect.Container:FindFirstChild("Respawn
     game:GetService("ReplicatedStorage").Effect.Container.Respawn:Destroy();
 end
 
-local v55 = v16.Main:AddToggle("ToggleCollectChest", {
+local v55 = v15.Main:AddToggle("ToggleCollectChest", {
 Title = "Lụm Rương",
     Description = "",
     Default = false
